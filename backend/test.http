@@ -1,0 +1,14 @@
+POST https://zcars.herokuapp.com/api/fleet HTTP/1.1
+content-type: application/json
+
+{
+    "name":"sail",
+    "model":"GT",
+    "carType":"coupes",
+    "seats":"5",
+    "gears":"automatic",
+    "clima":"yes" ,
+    "price": "700",
+    "image": "/uploads/images/sail.jpg",
+    "qt": "5"
+}
